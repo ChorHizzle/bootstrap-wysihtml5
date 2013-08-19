@@ -455,4 +455,4 @@
         }
     };
 
-}(window.jQuery, window.wysihtml5);
+}(window.jQuery, wysihtml5);
