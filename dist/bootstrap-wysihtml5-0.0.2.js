@@ -20,9 +20,9 @@
             "emphasis":
                 "<li>" +
                   "<div class='btn-group'>" +
-                    "<a class='btn' data-wysihtml5-command='bold' title='CTRL+B'>" + locale.emphasis.bold + "</a>" +
-                    "<a class='btn' data-wysihtml5-command='italic' title='CTRL+I'>" + locale.emphasis.italic + "</a>" +
-                    "<a class='btn' data-wysihtml5-command='underline' title='CTRL+U'>" + locale.emphasis.underline + "</a>" +
+                    "<a class='btn' data-wysihtml5-command='bold' title='CTRL+B'>" + "B" + "</a>" +
+                    "<a class='btn' data-wysihtml5-command='italic' title='CTRL+I'>" + "I" + "</a>" +
+                    "<a class='btn' data-wysihtml5-command='underline' title='CTRL+U'>" + "U" + "</a>" +
                   "</div>" +
                 "</li>",
 
@@ -51,7 +51,7 @@
                       "<a href='#' class='btn btn-primary' data-dismiss='modal'>" + locale.link.insert + "</a>" +
                     "</div>" +
                   "</div>" +
-                  "<a class='btn' data-wysihtml5-command='createLink' title='" + locale.link.insert + "'><i class='icon-share'></i></a>" +
+                  "<a class='btn' data-wysihtml5-command='createLink' title='" + locale.link.insert + "'>Link</a>" +
                 "</li>",
 
             "image":
@@ -75,7 +75,7 @@
             "html":
                 "<li>" +
                   "<div class='btn-group'>" +
-                    "<a class='btn' data-wysihtml5-action='change_view' title='" + locale.html.edit + "'><i class='icon-pencil'></i></a>" +
+                    "<a class='btn' data-wysihtml5-action='change_view' title='" + locale.html.edit + "'>HTML</a>" +
                   "</div>" +
                 "</li>",
 
